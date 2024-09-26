@@ -17,9 +17,8 @@ class Product
 
     public function showSalesPrice()
     {
-        $salesPrice = $this->price * 1.09; // 9% BTW toevoegen
-        return number_format($salesPrice, 2); // Met 2 cijfers achter de komma
-    }
+        $salesPrice = $this->price * 1.09;
+        return number_format($salesPrice, 2); 
 }
 
 $game1 = new Product;
