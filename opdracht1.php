@@ -1,11 +1,12 @@
 <?php
-class Person
+class product
 {
-
 }
 
-$jack = new Person();
-$sarah = new Person();
-$james = new Person();
+$game1 = new product;
 
-var_dump($james, $sarah, $jack);
+$game2 = new product();
+
+$game3 = new product();
+
+var_dump($game1, $game2, $game3);
